@@ -13,6 +13,12 @@ public class Gizmo
   */
   public boolean isElectronic()
   {
+    boolean isElec = false;
+    for ( int i = 0; i < purchases.size(); i ++) {
+      if (purchases.get(i).equals(purchases.get(i-1)) {
+        isElec = true;
+      }
+    }
     return isElec;
   }
   /** Returns true if this Gizmo is equivalent to the Gizmo
